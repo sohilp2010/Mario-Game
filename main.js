@@ -7,6 +7,8 @@ marioY = 325;
 function preload()
 {
   img = loadImage("mario05.png");
+	video = createVideo('video.mp4');
+  video.hide();
 }
 
 function setup() {
